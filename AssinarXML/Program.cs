@@ -47,7 +47,7 @@ namespace AssinaXML
             string msgLog = "";
 
             string _arquivo = args[0];
-            if (_arquivo == null)
+            if ( ! _arquivo )
             {
                 msgLog += "\rNome de arquivo não informado...";
             }
